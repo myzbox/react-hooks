@@ -1,0 +1,48 @@
+{
+  "name": "@myzbox/react-hooks",
+  "version": "0.1.0",
+  "description": "A collection of reusable, production-ready React custom hooks",
+  "license": "MIT",
+
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+
+  "files": ["dist"],
+
+  "scripts": {
+    "build": "tsup",
+    "prepublishOnly": "npm run build"
+  },
+
+  "peerDependencies": {
+    "react": ">=18"
+  },
+
+  "devDependencies": {
+    "react": "^18.2.0",
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0",
+    "tsup": "^8.0.0"
+  },
+
+  "keywords": [
+    "react",
+    "react-hooks",
+    "hooks",
+    "useDebounce",
+    "custom-hooks",
+    "frontend"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/myzbox/react-hooks"
+  },
+
+  "bugs": {
+    "url": "https://github.com/myzbox/react-hooks/issues"
+  },
+
+  "homepage": "https://github.com/myzbox/react-hooks#readme"
+}
