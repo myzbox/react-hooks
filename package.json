@@ -26,14 +26,25 @@
     "tsup": "^8.0.0"
   },
 
-  "keywords": [
-    "react",
-    "react-hooks",
-    "hooks",
-    "useDebounce",
-    "custom-hooks",
-    "frontend"
-  ],
+"keywords": [
+  "react",
+  "react-hooks",
+  "hooks",
+  "custom-hooks",
+  "useDebounce",
+  "useThrottle",
+  "debounce",
+  "throttle",
+  "frontend"
+],
+
+"exports": {
+  ".": {
+    "types": "./dist/index.d.ts",
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.js"
+  }
+},
 
   "repository": {
     "type": "git",

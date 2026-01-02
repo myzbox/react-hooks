@@ -13,7 +13,10 @@ This project follows Semantic Versioning (https://semver.org/).
 - Initial project setup for `@myzbox/react-hooks`
 - Build configuration using `tsup`
 - TypeScript support with generated declaration files
-- First custom hook: `useDebounce`
+- `useDebounce` hook
+- `useDebouncedCallback` hook
+- `useThrottle` hook
+- `useThrottledCallback` hook
 - Basic documentation and usage examples
 
 ### Notes

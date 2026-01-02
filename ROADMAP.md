@@ -4,9 +4,12 @@ Planned evolution of `@myzbox/react-hooks`.
 
 ---
 
-## v0.1.x – Foundation
+## v0.1.x – Foundation (Current)
 
 - `useDebounce` ✅
+- `useDebouncedCallback` ✅
+- `useThrottle` ✅
+- `useThrottledCallback` ✅
 - Improve documentation
 - Add examples
 
@@ -14,23 +17,24 @@ Planned evolution of `@myzbox/react-hooks`.
 
 ## v0.2.0 – Core Hooks
 
-- `useDebouncedCallback`
-- `useThrottle`
+- `useOnce`
+- `usePrevious`
+- `useIsMounted`
 
 ---
 
 ## v1.0.0 – Stable Release
 
-- `useOnce`
-- `usePrevious`
+- Async hooks (`useFetch`, `useAsync`)
+- DOM hooks (`useClickOutside`, `useEventListener`)
+- Full test coverage
 - Stable public API
 
 ---
 
-## v2.0.0 – Stable Release
+## v2.0.0 – Advanced Hooks
 
-- Async hooks (`useFetch`, `useAsync`)
-- DOM hooks (`useClickOutside`, `useEventListener`)
-- Full test coverage
-
----
+- `useIntersectionObserver`
+- `useMediaQuery`
+- `useLocalStorage`
+- Performance optimizations
